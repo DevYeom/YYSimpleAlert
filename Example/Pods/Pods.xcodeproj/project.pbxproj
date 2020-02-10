@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E0835806568864172E1AC0CA5A6F6A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		19C2B68A565461CB4FB805883910C979 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B546C798B13F9847EAD807A4EB0E74 /* ReplaceMe.swift */; };
+		19C2B68A565461CB4FB805883910C979 /* YYSimpleAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B546C798B13F9847EAD807A4EB0E74 /* YYSimpleAlert.swift */; };
 		26BE3F6ADAAE21A059D380DD97EB6899 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		2D722B6C11630EB2F8BDDEBE435E91F3 /* Pods-YYSimpleAlert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FEF7CF4F15A691A0C15F7F542E2992 /* Pods-YYSimpleAlert_Example-dummy.m */; };
 		3D0466036D39693FA348551C564A78EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -38,13 +38,13 @@
 
 /* Begin PBXFileReference section */
 		031977B5E8D27DDFBDBEC6D4248B1F4E /* YYSimpleAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYSimpleAlert-umbrella.h"; sourceTree = "<group>"; };
-		03812CF52E4BBB8A69F029C7FDD68FBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		03812CF52E4BBB8A69F029C7FDD68FBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04B29B10F27BE78BB4881E23F8078A4B /* YYSimpleAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYSimpleAlert-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		33030905F591F27DEB67CC43FD774214 /* YYSimpleAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYSimpleAlert.framework; path = YYSimpleAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		38B546C798B13F9847EAD807A4EB0E74 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = YYSimpleAlert/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		33030905F591F27DEB67CC43FD774214 /* YYSimpleAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYSimpleAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B546C798B13F9847EAD807A4EB0E74 /* YYSimpleAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YYSimpleAlert.swift; path = YYSimpleAlert/Classes/YYSimpleAlert.swift; sourceTree = "<group>"; };
 		3CDA4000BE7BD45F4B1279C5082E2569 /* Pods-YYSimpleAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYSimpleAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3E5FEC6ABB1D93D8010E249A773C2E79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3E5FEC6ABB1D93D8010E249A773C2E79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3FCA263A3433729F3FBE8B34E9CF0619 /* Pods-YYSimpleAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YYSimpleAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4F17E15A549D1F3A052D32E8C038B86F /* Pods-YYSimpleAlert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YYSimpleAlert_Tests-dummy.m"; sourceTree = "<group>"; };
 		57A279D38E4E7490AB2D6A2C41875797 /* Pods-YYSimpleAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYSimpleAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		60396A8917912E5B692633CB9164A90B /* Pods-YYSimpleAlert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YYSimpleAlert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		66335934EE13FCBC251A4F681183C55D /* Pods-YYSimpleAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYSimpleAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		75FEF7CF4F15A691A0C15F7F542E2992 /* Pods-YYSimpleAlert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YYSimpleAlert_Example-dummy.m"; sourceTree = "<group>"; };
-		7E93D08020108B1EBED4B5A2E03F1111 /* Pods_YYSimpleAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YYSimpleAlert_Example.framework; path = "Pods-YYSimpleAlert_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E93D08020108B1EBED4B5A2E03F1111 /* Pods_YYSimpleAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYSimpleAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8486DC2134440490F95E7A81DF1A1524 /* Pods-YYSimpleAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YYSimpleAlert_Example.modulemap"; sourceTree = "<group>"; };
 		8551ACAFA370B25E48D3B6999FFC2348 /* YYSimpleAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYSimpleAlert-prefix.pch"; sourceTree = "<group>"; };
 		85A780E70582FFE2BC22493A3D07FCBD /* YYSimpleAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYSimpleAlert.modulemap; sourceTree = "<group>"; };
@@ -60,12 +60,12 @@
 		8D25CD1EE96A227A17B74262A330C4AA /* YYSimpleAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYSimpleAlert-dummy.m"; sourceTree = "<group>"; };
 		8D98DF44FE38A3CB58079C0B1B86970A /* Pods-YYSimpleAlert_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYSimpleAlert_Example-Info.plist"; sourceTree = "<group>"; };
 		9D0ED309E82134AEC26FC50B3DDD7BE5 /* Pods-YYSimpleAlert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YYSimpleAlert_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ACEA6FA51D75E92F7864CD823488B067 /* Pods_YYSimpleAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YYSimpleAlert_Tests.framework; path = "Pods-YYSimpleAlert_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACEA6FA51D75E92F7864CD823488B067 /* Pods_YYSimpleAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYSimpleAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2D9688F1027A3C148449971D1F11F5 /* Pods-YYSimpleAlert_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YYSimpleAlert_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D94CF76263DF68D8A2EE0CC71E13E08A /* Pods-YYSimpleAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYSimpleAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DB49B5AD7451273EED1D04FBF1ACD41B /* YYSimpleAlert.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYSimpleAlert.xcconfig; sourceTree = "<group>"; };
-		DBB9AC80FDBBC99F507F6CCFA969FE86 /* YYSimpleAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YYSimpleAlert.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DBB9AC80FDBBC99F507F6CCFA969FE86 /* YYSimpleAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YYSimpleAlert.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DF785914A0284790E1B64B458E2828C4 /* Pods-YYSimpleAlert_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YYSimpleAlert_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E0075FCBCCE64932FBB9F79D6DCA2475 /* Pods-YYSimpleAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YYSimpleAlert_Tests.modulemap"; sourceTree = "<group>"; };
 		E33B0662E9305A796562646A5D7C41C9 /* Pods-YYSimpleAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYSimpleAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -170,7 +170,7 @@
 		C6B4965366A45C3C4FFB4C058E6D05E2 /* YYSimpleAlert */ = {
 			isa = PBXGroup;
 			children = (
-				38B546C798B13F9847EAD807A4EB0E74 /* ReplaceMe.swift */,
+				38B546C798B13F9847EAD807A4EB0E74 /* YYSimpleAlert.swift */,
 				D1941F1FD2DB1944035D6E02C68CECB2 /* Pod */,
 				ED295EBF540B90F3D33D4E6F057AAE1C /* Support Files */,
 			);
@@ -381,7 +381,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19C2B68A565461CB4FB805883910C979 /* ReplaceMe.swift in Sources */,
+				19C2B68A565461CB4FB805883910C979 /* YYSimpleAlert.swift in Sources */,
 				9D166C0A0FB81C623B94F6F90EA8D180 /* YYSimpleAlert-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -582,13 +582,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -645,7 +644,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
