@@ -1,0 +1,22 @@
+{
+  "name": "YYSimpleAlert",
+  "version": "0.1.0",
+  "summary": "A short description of YYSimpleAlert.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/flip.flop/YYSimpleAlert",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "flip.flop": "flip.flop@kakaocorp.com"
+  },
+  "source": {
+    "git": "https://github.com/flip.flop/YYSimpleAlert.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YYSimpleAlert/Classes/**/*"
+}

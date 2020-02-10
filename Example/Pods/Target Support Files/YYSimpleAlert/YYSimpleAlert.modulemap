@@ -1,0 +1,6 @@
+framework module YYSimpleAlert {
+  umbrella header "YYSimpleAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}
