@@ -17,7 +17,7 @@ This library will be used for CocoaPods guide.
 
   s.homepage         = 'https://github.com/DevYeom/YYSimpleAlert'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'dev.yeom' => 'dev.yeom@gmail.com' }
+  s.author           = { 'DevYeom' => 'dev.yeom@gmail.com' }
   s.source           = { :git => 'https://github.com/DevYeom/YYSimpleAlert.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '13.0'
