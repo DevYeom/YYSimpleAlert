@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C211FB6C24040BB300C92C98 /* YYSimpleAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211FB6A24040BB300C92C98 /* YYSimpleAlert.swift */; };
+		C211FB6D24040BB300C92C98 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = C211FB6B24040BB300C92C98 /* .gitkeep */; };
 		C2232E052403FF160071050C /* YYSimpleAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = C2232E032403FF160071050C /* YYSimpleAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C211FB6A24040BB300C92C98 /* YYSimpleAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYSimpleAlert.swift; sourceTree = "<group>"; };
+		C211FB6B24040BB300C92C98 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		C2232E002403FF160071050C /* YYSimpleAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYSimpleAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2232E032403FF160071050C /* YYSimpleAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYSimpleAlert.h; sourceTree = "<group>"; };
 		C2232E042403FF160071050C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -27,6 +31,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C211FB6924040BB300C92C98 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C211FB6A24040BB300C92C98 /* YYSimpleAlert.swift */,
+				C211FB6B24040BB300C92C98 /* .gitkeep */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		C2232DF62403FF150071050C = {
 			isa = PBXGroup;
 			children = (
@@ -46,6 +59,7 @@
 		C2232E022403FF160071050C /* YYSimpleAlert */ = {
 			isa = PBXGroup;
 			children = (
+				C211FB6924040BB300C92C98 /* Classes */,
 				C2232E032403FF160071050C /* YYSimpleAlert.h */,
 				C2232E042403FF160071050C /* Info.plist */,
 			);
@@ -121,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C211FB6D24040BB300C92C98 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C211FB6C24040BB300C92C98 /* YYSimpleAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
